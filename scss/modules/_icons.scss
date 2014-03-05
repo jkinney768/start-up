@@ -1,0 +1,15 @@
+/* ---------------------------------------------------------------------
+ Icons
+------------------------------------------------------------------------ */
+
+.icon {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    margin-right: 4px;
+    text-indent: -9999px;
+    vertical-align: bottom;
+    background-image: url(assets/icon-sprite.png);
+}
+
+.icon_email { background-position: 0 0; }
