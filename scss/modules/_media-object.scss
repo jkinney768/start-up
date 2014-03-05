@@ -1,0 +1,22 @@
+/* ---------------------------------------------------------------------
+Media Object
+------------------------------------------------------------------------ */
+
+.media { overflow: hidden; }
+
+.media-img {
+    float:left;
+    margin: 0 10px 0 0;
+}
+
+.media-img_inset { 
+	float: right; 
+	margin: 0 0 0 10px;
+}
+
+.media-hd { }
+
+.media-bd { overflow: hidden; }
+.media-bd_wrap { overflow: visible; }
+
+.media-ft { }

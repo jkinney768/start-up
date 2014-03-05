@@ -1,0 +1,50 @@
+/* ---------------------------------------------------------------------
+ Input
+------------------------------------------------------------------------ */
+
+.input {
+    display: inline-block;
+    color: #666666;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: normal;
+}
+
+/* input types */
+.input_text {
+    margin: 0;
+    padding: 8px 6px;
+    border: 1px solid #bbbbbb;
+    -webkit-appearance: none;
+}
+
+.input_text:focus {
+    border: 1px solid #666666;
+}
+
+.input_radio {
+    width: 13px;
+    height: 13px;
+}
+
+.input_checkbox {
+    width: 13px;
+    height: 13px;
+}
+
+/* input sizes */
+.mix-input_xs { width: 10%; }
+.mix-input_sm { width: 20%; }
+.mix-input_md { width: 30%; }
+.mix-input_lg { width: 40%; }
+.mix-input_xl { width: 50%; }
+
+/* input states */
+.mix-input_isDisabled {
+    background: #cccccc;
+}
+
+.mix-input_isError {
+    border: 1px solid #ff3333;
+    color: #ff3333;
+}
