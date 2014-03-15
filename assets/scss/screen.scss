@@ -1,14 +1,14 @@
 /* ---------------------------------------------------------------------
 Base
 ------------------------------------------------------------------------ */
-
+@import "base/reset";
 
 
 /* ---------------------------------------------------------------------
 Helpers
 ------------------------------------------------------------------------ */
-@import "_vars.scss"
-@import "_vendor.scss";
+@import "helpers/_vars";
+@import "helpers/_vendor";
 
 
 
@@ -30,4 +30,4 @@ Modules
 @import "modules/_inputs";
 @import "modules/_media-object";
 @import "modules/_vList";
-@import "modules/_section"
+@import "modules/_section";
