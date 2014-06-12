@@ -7,10 +7,12 @@
     margin-bottom: 14px;
 }
 
+/* vList spacing extentions */
 .vList_tight > * + * { margin-left: 8px; }
 .vList_std > * + * { margin-left: 16px; }
 .vList_loose > * + * { margin-left: 24px; }
 
+/* vList styling extensions */
 .vList_divided > * + * {
     padding-top: 14px;
     border-top: 1px solid #cccccc;

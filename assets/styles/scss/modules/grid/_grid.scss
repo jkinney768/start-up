@@ -20,17 +20,17 @@ Grid Generator
     }   
     overflow: hidden;
   }
-  .grid-item {
+  .grid-col {
     float: left;
     box-sizing: border-box;
   }
   
   //adds gutter and converts px gutters to % if $gridWidth is defined
-  .grid-item + .grid-item { margin-left: unquote($gutter + '%'); }
+  .grid-col + .grid-col { margin-left: unquote($gutter + '%'); }
   
   //The loop that creates all of your grid item classes and widths
   @for $i from 1 through $count {
-    .grid-item_#{$i}of#{$count} {
+    .grid-col_#{$i}of#{$count} {
       width: unquote(($oneGridItemWidth * $i) - $gutter + ($extra * $i) + '%');
     }
   }

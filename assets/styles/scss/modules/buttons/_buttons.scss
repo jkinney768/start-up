@@ -1,0 +1,32 @@
+/* ---------------------------------------------------------------------
+ Buttons
+------------------------------------------------------------------------ */
+
+.btn {
+    display: inline-block;
+    margin: 0;
+    padding: 8px 16px;
+    border: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+    line-height: normal; /* set to normal to .btn can be usd on inputs in firefox with consistency */
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #333333;
+}
+
+.btn_disabled {
+    color: #666666; /* fallback for non rgba browsers */
+    color: rgba(0,0,0,.3);
+    background: #cccccc !important; /* override hovers - disabled buttons don't have hover states */
+}
+
+.btn_cta { background: #d53b3b; }
+.btn_cta:hover { background: #b81818; }

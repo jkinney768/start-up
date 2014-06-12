@@ -3,13 +3,14 @@
 ------------------------------------------------------------------------ */
 
 .hList { overflow: hidden; }
-
 .hList > * { float: left; }
 
+/* hList spacing extensions */
 .hList_tight > * + * { margin-left: 8px; }
 .hList_std > * + * { margin-left: 16px; }
 .hList_loose > * + * { margin-left: 24px; }
 
+/* hList styling extensions */
 .hList_divided > * + * {
     margin-left: 12px;
     padding-left: 12px;
