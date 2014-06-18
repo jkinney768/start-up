@@ -24,15 +24,27 @@ Landmarks
 /* ---------------------------------------------------------------------
 Modules
 ------------------------------------------------------------------------ */
-@import "modules/blocks/_blocks";
-@import "modules/box/_box";
-@import "modules/buttons/_buttons";
-@import "modules/grid/_grid";
-@import "modules/headings/_headings";
+
+/*containers*/
+@import "modules/containers/wrapper/_wrapper";
+@import "modules/containers/box/_box";
+@import "modules/containers/tier/_tier";
+
+/*layouts*/
+@import "modules/layouts/blocks/_blocks";
+@import "modules/layouts/grid/_grid";
+
+/*lists*/
 @import "modules/lists/hList/_hList";
 @import "modules/lists/vList/_vList";
-@import "modules/inputs/_inputs";
-@import "modules/icons/_icons";
-@import "modules/media-object/_media-object";
-@import "modules/user-content/_user-content";
-@import "modules/tier/_tier";
+
+/*tyopgraphy*/
+@import "modules/tyopgraphy/headings/_headings";
+
+/*objects*/
+@import "modules/objects/buttons/_buttons";
+@import "modules/objects/inputs/_inputs";
+@import "modules/objects/icons/_icons";
+@import "modules/objects/media-object/_media-object";
+@import "modules/objects/user-content/_user-content";
+
