@@ -27,7 +27,6 @@ Modules
 
 /*containers*/
 @import "modules/containers/wrapper/_wrapper";
-@import "modules/containers/box/_box";
 @import "modules/containers/tier/_tier";
 
 /*layouts*/
@@ -43,6 +42,7 @@ Modules
 
 /*objects*/
 @import "modules/objects/buttons/_buttons";
+@import "modules/objects/box/_box";
 @import "modules/objects/inputs/_inputs";
 @import "modules/objects/icons/_icons";
 @import "modules/objects/media-object/_media-object";
